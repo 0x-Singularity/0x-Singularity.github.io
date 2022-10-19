@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Garrett McGuire - Links</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color1: 0x414141,
+            color2: 0x0,
+            wingSpan: 40.00,
+            separation: 100.00,
+            alignment: 85.00,
+            cohesion: 9.00,
+            quantity: 1.00
+            })
+
+            setTimeout(() => {
+                const main = document.querySelector('main')
+                main.style.opacity = 1
+                main.style.filter = 'blur(0px)'
+            }, 1000)
+                
+
+        })
+    </script>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./images/uncroppedPic.jpeg" alt="">
+            <h1>@garrett_mcguire</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://www.github.com/0xGrizzly">
+                    <img src="./images/homepage.svg" alt="Homepage" width="20">
+                Personal Website
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCqZ0bQ9nl9h6PeY8IJSHEXQ">
+                    <img src="./images/youtube.svg" alt="YouTube" width="20">
+                    YouTube
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/0xGrizzly">
+                    <img src="./images/github.svg" alt="GitHub" width="20">
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@garrettcmcguire">
+                    <img src="./images/Medium_circle-512.webp" alt="Medium" width="20">
+                    Medium
+                </a>
+            </li>
+        </ul>
+    </main>
+    
+    
+</body>
+</html>
