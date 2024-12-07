@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Open Sans, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 main {
     position: relative;
@@ -20,8 +23,8 @@ header {
 }
 
 body {
-    background: url(./images/Blackwaves.svg) repeat center center fixed;
-    background-size: cover;;
+    background: url(./images/ASTRAPNG.png) repeat center center fixed;
+    background-size: cover;
 }
 
 #vanta {
@@ -34,23 +37,28 @@ body {
 }
 
 header > img {
-    width: 8em;
-    height: 8em;
+    width: 10em;
+    height: 10em;
+    object-fit: cover; /* or contain, depending on desired look */
     border-radius: 100%;
-    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
+
+
 
 header > h1 {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 2em;
     border-radius: 3em;
-    background-color: #000a;
-    color: #fffa;
     margin: 10px 10px 10px 10px;
-    padding: 0.3em, 0.6em;
-    border: 5px solid #000a;
+    padding: 0.3em 0.6em;
     backdrop-filter: blur(10px)saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px)saturate(160%) contrast(180%);
+    color:#ffff;
+}
+
+p {
+    color: #ffff;
+
 }
 
 ul {
@@ -84,3 +92,12 @@ a {
     color: #ffff;
     text-decoration: none;
 }
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ddd;
+}
+
