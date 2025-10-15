@@ -37,9 +37,9 @@ body {
 }
 
 header > img {
-    width: 10em;
-    height: 10em;
-    object-fit: cover; /* or contain, depending on desired look */
+    width: 15em;
+    height: 15em;
+    object-fit: cover;
     border-radius: 100%;
 }
 
@@ -49,8 +49,8 @@ header > h1 {
     display: inline-block;
     font-size: 2em;
     border-radius: 3em;
-    margin: 10px 10px 10px 10px;
-    padding: 0.3em 0.6em;
+    margin: 3px 3px 3px 3px;
+    padding: 0.2em 0.2em;
     backdrop-filter: blur(10px)saturate(160%) contrast(180%);
     -webkit-backdrop-filter: blur(10px)saturate(160%) contrast(180%);
     color:#ffff;
